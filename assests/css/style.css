@@ -1,0 +1,110 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  overflow: hidden;
+  font-size: 16px;
+  direction: rtl;
+}
+
+header {
+  background-image: url(../img/20508896.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+header .header {
+  background: #fff;
+  width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+header .header .box-1,
+header .header .box-2,
+header .header .box-3 {
+  padding: 0px 30px;
+  font-family: vazir;
+}
+header .header .box-1 label,
+header .header .box-2 label,
+header .header .box-3 label {
+  margin: 1.8rem 0 0.7rem;
+  display: block;
+}
+header .header .box-1 input,
+header .header .box-2 input,
+header .header .box-3 input {
+  width: 100%;
+}
+header .header select {
+  width: 100%;
+  padding: 1px 2px;
+}
+header .header .ticket {
+  background: rgba(217, 217, 217, 0.6117647059);
+  margin-top: 2rem;
+  padding: 18px 0;
+  border-radius: 0 0 10px 10px;
+}
+header .header .ticket .btn.btn-secondary.buy-ticket {
+  padding: 7px 40px;
+  font-family: vazir;
+}
+header .header .ticket .btn.btn-secondary.buy-ticket:hover {
+  background: black;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
